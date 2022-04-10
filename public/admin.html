@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <title>Yodlr Admin Page</title>
+  </head>
+  <body>
+    <div class="mt-5 w-50 container border rounded">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+          </tr>
+        </thead>
+        <tbody id="users-list"></tbody>
+      </table>
+      <p
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <a class="link-primary" href="/index.html">Homepage</a>
+      </p>
+    </div>
+  </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script src="./js/admin.js"></script>
+</html>
